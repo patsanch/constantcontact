@@ -13,4 +13,4 @@ cc = ConstantContact::Connect.new(username, password, key)
 cc.get_contacts
 
 
-Copyright (c) 2010 [name of plugin creator], released under the MIT license
+Copyright (c) 2010 [Patrick Sanchez], released under the MIT license
