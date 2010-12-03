@@ -1,0 +1,1 @@
+class Contact < Struct.new(:name, :email); end
