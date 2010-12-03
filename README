@@ -25,6 +25,12 @@ cc.get_campaigns(STATUS)
 STATUS can be 'DRAFT', 'SENT', 'RUNNING' or 'SCHEDULED'
 
 
+Requires
+========
+
+1) gem install nokogiri
+
+
 TO DO (random order)
 ====================
 
