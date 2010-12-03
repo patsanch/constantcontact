@@ -12,5 +12,10 @@ cc = ConstantContact::Connect.new(username, password, key)
 2) Get CC Contacts
 cc.get_contacts
 
+3) GET CC Campaigns
+cc.get_campaigns(STATUS)
+
+STATUS can be 'DRAFT', 'SENT', 'RUNNING' or 'SCHEDULED'
+
 
 Copyright (c) 2010 [Patrick Philip Sanchez], released under the MIT license
