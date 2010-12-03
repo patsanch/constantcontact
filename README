@@ -19,10 +19,13 @@ cc = ConstantContact::Connect.new(username, password, key)
 2) Get CC Contacts
 cc.get_contacts
 
-3) GET CC Campaigns
+3) Get CC Campaigns
 cc.get_campaigns(STATUS)
 
 STATUS can be 'DRAFT', 'SENT', 'RUNNING' or 'SCHEDULED'
+
+4) Get CC Lists
+cc.get_lists
 
 
 Requires
@@ -41,9 +44,6 @@ TO DO (random order)
 3) Add Contacts
 
 4) Add Lists
-
-5) Get Lists
-
 
 
 

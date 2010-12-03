@@ -51,6 +51,11 @@ module ConstantContact
       campaigns = Campaign.get_campaigns(url, self)
       return campaigns
     end
+    
+    def get_lists
+      lists = List.get_lists(@base_url + '/lists', self)
+      return lists
+    end
 
   end
 end
