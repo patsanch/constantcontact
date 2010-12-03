@@ -1,13 +1,16 @@
 Constantcontact
 ===============
 
-Introduction goes here.
+Using ConstantContact (CC) API in your Rails Apps
 
 
 Example
 =======
+1) Initialize
+cc = ConstantContact::Connect.new(username, password, key)
 
-Example goes here.
+2) Get CC Contacts
+cc.get_contacts
 
 
 Copyright (c) 2010 [name of plugin creator], released under the MIT license
