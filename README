@@ -6,9 +6,9 @@ Using ConstantContact (CC) API in your Rails Apps
 
 Installation
 ============
-Inside your Rails App, do
+1) cd RAILS_APP
 
-ruby script/plugin install git@github.com:pash/constantcontact.git
+2) ruby script/plugin install git@github.com:pash/constantcontact.git
 
 
 Example
@@ -23,6 +23,22 @@ cc.get_contacts
 cc.get_campaigns(STATUS)
 
 STATUS can be 'DRAFT', 'SENT', 'RUNNING' or 'SCHEDULED'
+
+
+TO DO (random order)
+====================
+
+1) Schedule Campaign
+
+2) Show Reports
+
+3) Add Contacts
+
+4) Add Lists
+
+5) Get Lists
+
+
 
 
 Copyright (c) 2010 [Patrick Philip Sanchez], released under the MIT license
